@@ -14,11 +14,15 @@ y = dataset.iloc[:, 2].values
 """from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)"""
 
+# In this case we are using entire dataset for training as prediction will be done on a single value.
+
 # Feature Scaling
 """from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)"""
+
+# Here we dont need to scale the data as its scaled when we fit the data to the model 
 
 # Fitting Linear Regression to the dataset
 from sklearn.linear_model import LinearRegression
