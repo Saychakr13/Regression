@@ -1,1 +1,2 @@
 # Regression
+In this repository i am using different regression models for predicting the salary of an employee whose position(indicative of his experience) in the office is known.This can help new companies to know about his salary, when he applies for a job, just from his current position in his company.Thus these models can be used as a Bluff Detector by the interviewers during the initial rounds of interview to check for his truthfulness(wheather he is lying about his salary).
